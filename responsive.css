@@ -1,0 +1,82 @@
+/* Quitar la imagen decorativa cuando ya no entra */
+@media (max-width: 905px) {
+  .registro img {
+    display: none;
+  }
+}
+/* Ajustar el footer para que entre mejor */
+@media (max-width: 675px) {
+  footer {
+    flex-direction: column;
+    height: 100px;
+  }
+  /* Ajustar main para que no haya overflow en Y */
+  .main {
+    height: calc(100vh - 165px);
+  }
+}
+/* Ajuste de navbar y carta de registro*/
+@media (max-width: 616px) {
+  .regresar {
+    display: none;
+  }
+  .regresar-icono {
+    display: flex;
+  }
+  .registro {
+    padding: 20px 10px;
+    font-size: 13px;
+  }
+  .registro-text-container h1 {
+    font-size: 20px;
+  }
+  .navbar {
+    padding-right: 30px;
+  }
+}
+/* Ajuste de navbar */
+@media (max-width: 512px) {
+  .logo {
+    font-size: 35px;
+  }
+  .logo-title h1 {
+    font-size: 25px;
+  }
+  .regresar-icono {
+    font-size: 25px;
+  }
+}
+/* Ultimo ajuste de navbar, footer y registro */
+@media (max-width: 372px) {
+  footer {
+    flex-direction: column;
+    height: 100px;
+  }
+  .footer-links li > a {
+    font-size: 13px;
+  }
+  .footer-links {
+    gap: 10px;
+  }
+  .registro {
+    font-size: 10px;
+  }
+  .registro-text-container h1 {
+    font-size: 20px;
+  }
+  #submit {
+    padding: 5px 15px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .logo-title h1 {
+    font-size: 20px;
+  }
+  #regresar-icono {
+    font-size: 20px;
+  }
+  .formulario-input {
+    font-size: 10px;
+  }
+}

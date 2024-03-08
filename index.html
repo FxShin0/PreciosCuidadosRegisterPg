@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#">
+        <div class="logo-title">
+          <i class="fa-solid fa-hand-holding-dollar logo"></i>
+          <h1 class="precios-vigilados-grad">Precios Vigilados</h1>
+        </div>
+        </a>
+        <a href="#" class="regresar glass">Regresar</a>
+        <a href="#" class="regresar-icono"><i class="fa-solid fa-house" id="regresar-icono"></i></a>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="registro glass">
+        <img src="./assets/div-image.png" alt="Imagen de login">
+        <div class="registro-text-container">
+            <h1>Registro</h1>
+            <p>Ingrese los datos para crear una cuenta</p>
+          </div>
+        <form class="formulario">
+          <input
+            type="email"
+            id="correo"
+            placeholder="Ingrese su correo"
+            class="formulario-input"
+          />
+          <input
+            type="email"
+            id="re-correo"
+            placeholder="Reingrese su correo"
+            class="formulario-input"
+          />
+          <input
+            type="password"
+            id="contra"
+            placeholder="Elija una contraseña"
+            class="formulario-input"
+          />
+          <div class="formulario-notificaciones">
+            <label class="checkbox-custom">
+              <input type="checkbox" id="notificaciones" />
+              <span class="checkmark"></span>
+              <span class="checkbox-label"
+                >Deseo recibir notificaciones sobre Precios Vigilados</span
+              >
+            </label>
+          </div>
+          <div class="formulario-condiciones">
+            <label class="checkbox-custom">
+            <input type="checkbox" id="condiciones" />
+            <span class="checkmark"></span>
+            <span class="checkbox-label"
+              >Acepto los términos y condiciones</span
+            >
+          </div>
+          <input type="submit" value="Registrarme" id="submit" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a href="#" class="footer-main-page-link"
+        ><h4>Precios Vigilados Ltd.</h4></a
+      >
+      <ul class="footer-links">
+        <li><a href="#">Politicas de uso</a></li>
+        <li><a href="#">Trabaja con nosotros</a></li>
+        <li><a href="#">Soporte</a></li>
+      </ul>
+      <div class="footer-redes">
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
