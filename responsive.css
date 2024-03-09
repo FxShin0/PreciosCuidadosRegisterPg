@@ -1,5 +1,5 @@
 /* Quitar la imagen decorativa cuando ya no entra */
-@media (max-width: 905px) {
+@media (max-width: 950px) {
   .registro img {
     display: none;
   }
@@ -60,6 +60,7 @@
   }
   .registro {
     font-size: 10px;
+    padding: 10px 4px;
   }
   .registro-text-container h1 {
     font-size: 20px;
@@ -78,5 +79,86 @@
   }
   .formulario-input {
     font-size: 10px;
+  }
+}
+/* Ajustes para celulares en horizontal  */
+@media (max-height: 700px) {
+  .registro img {
+    display: none;
+  }
+}
+@media (max-height: 590px) {
+  /* Cambios al formulario */
+  .registro {
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+  .registro-text-container h1 {
+    font-size: 18px;
+  }
+  .formulario-input {
+    height: 18px;
+    font-size: 14px;
+  }
+  #submit {
+    padding: 5px 15px;
+  }
+  /* Cambios al navbar */
+  .navbar {
+    height: 30px;
+  }
+  .logo,
+  .logo-title h1 {
+    font-size: 25px;
+  }
+  .regresar {
+    font-size: 14px;
+  }
+  /* Cambios al footer */
+  footer {
+    height: 25px;
+    flex-direction: row;
+  }
+  .footer-links a {
+    font-size: 10px;
+  }
+  .footer-redes a {
+    font-size: 10px;
+  }
+  .footer-main-page-link {
+    font-size: 10px;
+  }
+  /* Cambios al main */
+  .main {
+    height: calc(100vh - 55px);
+  }
+}
+/* Cambios al formulario de registro */
+@media (max-height: 320px) {
+  /* Cambios al formulario */
+  .registro {
+    padding: 7px 3px;
+    font-size: 9px;
+  }
+  .registro-text-container h1 {
+    font-size: 13px;
+  }
+  .formulario-input {
+    height: 13px;
+    font-size: 11px;
+  }
+  #submit {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+  .checkmark {
+    height: 13px;
+    width: 13px;
+  }
+  .checkbox-custom input:checked ~ .checkmark:after {
+    left: 4px;
+    top: 2px;
+    width: 3px;
+    height: 6px;
   }
 }
