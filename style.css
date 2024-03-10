@@ -144,6 +144,15 @@ body {
   -o-border-radius: 10px;
   padding: 10px 25px;
 }
+.regresar:hover {
+  background: var(--white-p);
+  color: var(--dark-bg);
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
 .regresar-icono{
   color:white;
   font-size:30px;
